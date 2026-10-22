@@ -25,11 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Operação durante as 24 horas, com decolagens e chegadas à noite e voos que atravessam a meia-noite.",
-    "Mais voos diários por aeronave: ajuste a frequência na criação ou edição da rota e use o máximo compatível com o trecho.",
-    "Previsões de passageiros, receita e lucro recalculadas ao mudar a frequência, sem alterar os voos já iniciados.",
-    "Globo com arrasto ancorado no dedo, pinça e zoom sob o cursor, com movimento suave e proporções preservadas.",
-    "Companhia e voos em andamento preservados; código do jogo privado e atualizações no canal público separado.",
+    "Rotas existentes identificadas no planejamento, incluindo ligações pausadas e no sentido inverso, com acesso direto à edição.",
+    "Proteção contra novas rotas duplicadas; ligações antigas e a companhia são preservadas.",
+    "Dois botões de sugestão de tarifa na criação e edição: maior faturamento e menor desgaste.",
+    "A sugestão de menor desgaste mantém pelo menos 90% do maior faturamento previsto e considera a carga de passageiros da frota.",
+    "Desgaste por ocupação aplicado às próximas decolagens; voos em andamento mantêm seus contratos e sua regra de desgaste anterior."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
