@@ -25,12 +25,12 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Mapa meteorológico mundial com condições de modelo Open-Meteo e boletins de ciclones GDACS, com fontes e horários reais em UTC.",
-    "Chuva, neblina, neve, ventos e tempestades visíveis no globo, com camada opcional e detalhes dos fenômenos.",
-    "Condições adversas atrasam novas partidas, reduzem ocupação e aumentam custos operacionais; situações extremas suspendem temporariamente novas decolagens.",
-    "Rotas preservadas e retomadas automaticamente quando o clima melhora. Voos já em andamento mantêm o planejamento da decolagem.",
-    "Atualização automática, cache local, avisos de falha e dados vencidos sem novas penalidades; relógio climático acompanha a data real.",
-    "Custos, receitas, manutenções automáticas, contratos em voo e progresso preservados nos salvamentos e backups."
+    "Ao comprar, escolha o aeroporto de entrega e confira a fábrica de origem, o trajeto, as escalas, o prazo e o custo total antes de confirmar.",
+    "Aeronaves novas voam da fabricante ao destino, respeitando o alcance do modelo e fazendo escalas técnicas quando necessário.",
+    "Transfira aeronaves livres entre aeroportos sem criar uma rota comercial, com previsão de custo e tempo de traslado.",
+    "Entregas e transferências aparecem individualmente no globo e na frota, com progresso e identificação próprios.",
+    "Traslados não transportam passageiros nem geram receita comercial ou desbloqueiam países; a aeronave fica disponível no destino ao concluir a viagem.",
+    "Clima real, partidas existentes, manutenção automática opcional, salvamentos e atualização pelo aplicativo preservados."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
