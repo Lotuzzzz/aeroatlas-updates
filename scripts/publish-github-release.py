@@ -25,12 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Ao comprar, escolha o aeroporto de entrega e confira a fábrica de origem, o trajeto, as escalas, o prazo e o custo total antes de confirmar.",
-    "Aeronaves novas voam da fabricante ao destino, respeitando o alcance do modelo e fazendo escalas técnicas quando necessário.",
-    "Transfira aeronaves livres entre aeroportos sem criar uma rota comercial, com previsão de custo e tempo de traslado.",
-    "Entregas e transferências aparecem individualmente no globo e na frota, com progresso e identificação próprios.",
-    "Traslados não transportam passageiros nem geram receita comercial ou desbloqueiam países; a aeronave fica disponível no destino ao concluir a viagem.",
-    "Clima real, partidas existentes, manutenção automática opcional, salvamentos e atualização pelo aplicativo preservados."
+    "Corrige a consulta dos certificados de assinatura no Android 9 e adiciona leitura compatível quando a informação moderna não está disponível.",
+    "A atualização continua exigindo APK íntegro, pacote e versão corretos e os mesmos certificados da instalação atual.",
+    "O motivo detalhado de uma falha e o botão para continuar aparecem antes das novidades; notas longas ficam recolhidas.",
+    "Instale esta versão sobre a anterior, sem desinstalar, para preservar sua companhia. Versões antigas afetadas precisam desta atualização pelo APK uma vez.",
+    "Mantém entregas da fabricante, transferências independentes, clima mundial, manutenção automática e salvamentos da versão 0.15.0."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
