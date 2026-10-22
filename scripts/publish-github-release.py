@@ -25,12 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Catálogo mundial com 48.100 aeroportos reais de pista, mantendo os 37 destinos anteriores e seus dados.",
-    "Explore 248 países e territórios. Um aeroporto principal fica disponível em cada um dos 239 com aeroportos; os demais informam a ausência de pista cadastrada.",
-    "Criar uma rota válida para o aeroporto principal libera os outros aeroportos daquele país de forma permanente.",
-    "Busca por país, cidade, IATA, ICAO e identificação real, com listas paginadas e destinos bloqueados visíveis.",
-    "Mapa otimizado para o catálogo mundial, mantendo cada aeronave na posição da simulação e o zoom proporcional.",
-    "Rotas, voos, hubs e países já utilizados por companhias antigas são preservados na atualização e nos backups."
+    "Switch opcional de manutenção automática em Frota e Configurações, desligado por padrão.",
+    "Quando ativado, restaura aeronaves no solo a 100% ao atingir 40% de condição ou menos, com o mesmo custo da manutenção manual e somente com saldo suficiente.",
+    "Aeronaves em voo aguardam o pouso. Pausa e tempo fora do aplicativo não geram reparos ou cobranças.",
+    "Manutenções automáticas identificadas no extrato e incluídas nos custos do histórico diário, sem cobranças duplicadas.",
+    "Preferência preservada nos salvamentos e backups; companhias antigas continuam com a opção desligada."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
