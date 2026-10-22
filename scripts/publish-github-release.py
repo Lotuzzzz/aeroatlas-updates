@@ -25,11 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Canal público de atualizações separado do repositório privado do código do jogo.",
-    "Migração automática dos endereços antigos para o novo canal, sem alterar sua companhia.",
-    "Mensagens específicas para canal não publicado (404) e acesso não autorizado (403).",
-    "Consulta, download e instalação pelo Android, com verificação do APK e preservação do progresso.",
-    "Mantém várias aeronaves por rota, voos independentes, edição da frota e projeções financeiras da versão 0.7.0.",
+    "Operação durante as 24 horas, com decolagens e chegadas à noite e voos que atravessam a meia-noite.",
+    "Mais voos diários por aeronave: ajuste a frequência na criação ou edição da rota e use o máximo compatível com o trecho.",
+    "Previsões de passageiros, receita e lucro recalculadas ao mudar a frequência, sem alterar os voos já iniciados.",
+    "Globo com arrasto ancorado no dedo, pinça e zoom sob o cursor, com movimento suave e proporções preservadas.",
+    "Companhia e voos em andamento preservados; código do jogo privado e atualizações no canal público separado.",
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
