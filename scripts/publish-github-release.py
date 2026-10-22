@@ -25,11 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Mapa sem cards numéricos de agrupamento de aeronaves.",
-    "Cada aeronave em voo é renderizada individualmente em sua posição da simulação, inclusive quando várias operam a mesma rota.",
-    "Toques repetidos em modelos sobrepostos alternam entre as aeronaves atingidas, sem deslocar suas posições.",
-    "Aeronaves no solo continuam no aeroporto; o zoom mantém as proporções dos modelos e das rotas.",
-    "Sua companhia, voos em andamento e canal de atualizações são preservados."
+    "Transforme aeroportos em hubs com investimento único de R$ 15 milhões.",
+    "Hubs reduzem em 20% o custo operacional e as taxas das rotas diretamente ligadas a eles, nos dois sentidos, sem acumular desconto entre dois hubs.",
+    "Voos em andamento preservam os custos da partida; o benefício vale para as próximas decolagens.",
+    "15 aeroportos reais adicionados: o Brasil agora tem aeroportos atendendo às 26 capitais estaduais e Brasília.",
+    "Hubs e novos destinos disponíveis no mapa, no planejamento de rotas e nos backups, preservando sua companhia."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
