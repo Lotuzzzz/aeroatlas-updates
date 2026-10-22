@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+update-channel/
+releases/
+*.apk
+*.aab
+*.keystore
+*.jks
+.env
+.env.*
+src/
+android/
+node_modules/
+dist/

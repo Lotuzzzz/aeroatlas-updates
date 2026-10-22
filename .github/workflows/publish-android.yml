@@ -1,0 +1,61 @@
+name: Publicar canal público Android
+
+on:
+  workflow_dispatch:
+    inputs:
+      transfer_commit:
+        description: Commit imutável da transferência revisada (40 caracteres hexadecimais)
+        required: true
+        type: string
+      apk_sha256:
+        description: SHA-256 do APK final revisado
+        required: true
+        type: string
+      manifest_sha256:
+        description: SHA-256 do latest.json revisado
+        required: true
+        type: string
+      publish:
+        description: Publicar o release após conferir os arquivos (desative para somente verificar)
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aeroatlas-android-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    # The source repository remains private. Copy this workflow only with the
+    # publisher infrastructure into the separate public updates repository.
+    if: github.repository == 'Lotuzzzz/aeroatlas-updates'
+    name: Conferir e publicar APK e manifesto
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Obter o código de publicação
+        uses: actions/checkout@v4
+      - name: Verificar o publicador e a transferência
+        run: python3 -m unittest discover -s scripts -p 'test_publish*.py'
+      - name: Publicar somente os arquivos revisados
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TRANSFER_COMMIT: ${{ inputs.transfer_commit }}
+          APK_SHA256: ${{ inputs.apk_sha256 }}
+          MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+          PUBLISH_RELEASE: ${{ inputs.publish }}
+        run: |
+          args=(
+            --commit "$TRANSFER_COMMIT"
+            --apk-sha256 "$APK_SHA256"
+            --manifest-sha256 "$MANIFEST_SHA256"
+            --out "$RUNNER_TEMP/aeroatlas-publication"
+          )
+          if [[ "$PUBLISH_RELEASE" == "true" ]]; then
+            args+=(--publish)
+          fi
+          python3 scripts/publish-release-transfer.py "${args[@]}"
