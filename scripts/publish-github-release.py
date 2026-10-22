@@ -25,11 +25,12 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Switch opcional de manutenção automática em Frota e Configurações, desligado por padrão.",
-    "Quando ativado, restaura aeronaves no solo a 100% ao atingir 40% de condição ou menos, com o mesmo custo da manutenção manual e somente com saldo suficiente.",
-    "Aeronaves em voo aguardam o pouso. Pausa e tempo fora do aplicativo não geram reparos ou cobranças.",
-    "Manutenções automáticas identificadas no extrato e incluídas nos custos do histórico diário, sem cobranças duplicadas.",
-    "Preferência preservada nos salvamentos e backups; companhias antigas continuam com a opção desligada."
+    "Mapa meteorológico mundial com condições de modelo Open-Meteo e boletins de ciclones GDACS, com fontes e horários reais em UTC.",
+    "Chuva, neblina, neve, ventos e tempestades visíveis no globo, com camada opcional e detalhes dos fenômenos.",
+    "Condições adversas atrasam novas partidas, reduzem ocupação e aumentam custos operacionais; situações extremas suspendem temporariamente novas decolagens.",
+    "Rotas preservadas e retomadas automaticamente quando o clima melhora. Voos já em andamento mantêm o planejamento da decolagem.",
+    "Atualização automática, cache local, avisos de falha e dados vencidos sem novas penalidades; relógio climático acompanha a data real.",
+    "Custos, receitas, manutenções automáticas, contratos em voo e progresso preservados nos salvamentos e backups."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
