@@ -25,11 +25,12 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Transforme aeroportos em hubs com investimento único de R$ 15 milhões.",
-    "Hubs reduzem em 20% o custo operacional e as taxas das rotas diretamente ligadas a eles, nos dois sentidos, sem acumular desconto entre dois hubs.",
-    "Voos em andamento preservam os custos da partida; o benefício vale para as próximas decolagens.",
-    "15 aeroportos reais adicionados: o Brasil agora tem aeroportos atendendo às 26 capitais estaduais e Brasília.",
-    "Hubs e novos destinos disponíveis no mapa, no planejamento de rotas e nos backups, preservando sua companhia."
+    "Catálogo mundial com 48.100 aeroportos reais de pista, mantendo os 37 destinos anteriores e seus dados.",
+    "Explore 248 países e territórios. Um aeroporto principal fica disponível em cada um dos 239 com aeroportos; os demais informam a ausência de pista cadastrada.",
+    "Criar uma rota válida para o aeroporto principal libera os outros aeroportos daquele país de forma permanente.",
+    "Busca por país, cidade, IATA, ICAO e identificação real, com listas paginadas e destinos bloqueados visíveis.",
+    "Mapa otimizado para o catálogo mundial, mantendo cada aeronave na posição da simulação e o zoom proporcional.",
+    "Rotas, voos, hubs e países já utilizados por companhias antigas são preservados na atualização e nos backups."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
