@@ -25,11 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Lista de aeroportos própria do jogo, com aviso de ligação já existente antes da seleção, inclusive no Android.",
-    "Ligações ativas em verde, com a quantidade de aeronaves vinculadas; ligações com pendências em vermelho e motivo visível.",
-    "Novas ligações disponíveis destacadas em ciano, mantendo a proteção contra duplicatas nos dois sentidos.",
-    "Busca por aeroporto, código, cidade e país; seleção preserva a tarifa, a frequência e a frota do planejamento.",
-    "Cores e estados compartilhados com a lista de rotas existentes, preservando sua companhia e os voos em andamento."
+    "Mapa sem cards numéricos de agrupamento de aeronaves.",
+    "Cada aeronave em voo é renderizada individualmente em sua posição da simulação, inclusive quando várias operam a mesma rota.",
+    "Toques repetidos em modelos sobrepostos alternam entre as aeronaves atingidas, sem deslocar suas posições.",
+    "Aeronaves no solo continuam no aeroporto; o zoom mantém as proporções dos modelos e das rotas.",
+    "Sua companhia, voos em andamento e canal de atualizações são preservados."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
