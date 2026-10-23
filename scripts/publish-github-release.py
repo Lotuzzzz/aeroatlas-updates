@@ -25,11 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Corrige a consulta dos certificados de assinatura no Android 9 e adiciona leitura compatível quando a informação moderna não está disponível.",
-    "A atualização continua exigindo APK íntegro, pacote e versão corretos e os mesmos certificados da instalação atual.",
-    "O motivo detalhado de uma falha e o botão para continuar aparecem antes das novidades; notas longas ficam recolhidas.",
-    "Instale esta versão sobre a anterior, sem desinstalar, para preservar sua companhia. Versões antigas afetadas precisam desta atualização pelo APK uma vez.",
-    "Mantém entregas da fabricante, transferências independentes, clima mundial, manutenção automática e salvamentos da versão 0.15.0."
+    "Listas e mapas mostram os 239 aeroportos principais, um por país com aeroportos. Destinos já usados pela companhia continuam acessíveis em uma seção separada.",
+    "A operação conta o tempo com o app minimizado ou fechado. Ao voltar, voos, entregas, custos, parcelas e manutenções são processados com salvamentos durante a recuperação.",
+    "A pausa manual também interrompe o progresso fora do app; formulários pausam o planejamento apenas enquanto estão visíveis.",
+    "Sem internet, o último clima confirmado e seus efeitos continuam ativos, incluindo ciclones. O painel mostra a idade e os horários reais dos dados salvos.",
+    "Quando a conexão volta, as fontes são atualizadas sem apagar dados de consultas que falharam. Mantém partidas, transferências e a compatibilidade do atualizador Android."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
