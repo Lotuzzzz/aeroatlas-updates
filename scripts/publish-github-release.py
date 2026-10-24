@@ -25,12 +25,15 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Ao editar uma rota, a inclusão mostra apenas as aeronaves disponíveis para adicionar, com botões por avião e a opção Adicionar todas.",
-    "As aeronaves já vinculadas são preservadas automaticamente. O gerenciamento dos vínculos atuais fica recolhido, com opção de retirar ou restaurar aviões.",
-    "A prévia financeira e a capacidade acompanham a seleção antes de salvar. É possível desfazer inclusões ou cancelar sem alterar a rota.",
-    "As verificações de localização, alcance, condição e voos em andamento continuam valendo. Mantém aeroportos regionais, clima salvo e progresso em segundo plano."
+    "Demanda finita em cada aeroporto: amarelo para alta e vermelho para crítica, com números e legenda nos mapas e listas.",
+    "Passageiros conectam por hubs em dois trechos; concorrentes simuladas disputam a demanda e influenciam as tarifas.",
+    "Circuitos permitem programar várias ligações para a mesma aeronave, respeitando localização, alcance e tempo diário.",
+    "Central de operações para aguardar, remarcar, cancelar a próxima partida ou desviar e recuperar uma aeronave.",
+    "Carreira com objetivos e recompensas únicas, acompanhados pela nova Central da companhia.",
+    "Mercado com aeronaves novas, usadas e leasing, custos transparentes e escolha do aeroporto de entrega.",
+    "Globo com dia e noite, luzes, rastros e movimento dos voos; sons opcionais começam desligados.",
+    "Relatório ao retornar mostra voos, passageiros, receitas, despesas e problemas; mantém saves, clima offline e aeroportos regionais."
 ]
-
 def capture(pattern: str, text: str, label: str) -> str:
     match = re.search(pattern, text, re.MULTILINE)
     if not match:
