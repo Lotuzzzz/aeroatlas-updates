@@ -25,12 +25,8 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Mapa mais limpo: clima, som, companhia, conquistas e legenda ficam reunidos no menu do mapa.",
-    "Toque em uma aeronave para aproximar, seguir e abrir seus detalhes; aeroportos também recebem foco e zoom suaves.",
-    "Detalhes do aeroporto no próprio mapa explicam a demanda simulada, as origens dos passageiros e os destinos procurados.",
-    "Crie uma rota até o aeroporto selecionado escolhendo a origem, com busca e indicação de ligações já existentes.",
-    "Compre de 1 a 20 aeronaves novas no mesmo pedido, com aeroporto de entrega, custo unitário e total antes da confirmação.",
-    "Compre aviões para uma ligação e acompanhe a entrega: o vínculo com a rota ocorre automaticamente após a chegada, sem duplicar ligações."
+    "Notificações de pouso agora aparecem em uma mini tarja de uma linha no topo, com o voo e a receita recebida.",
+    "O aviso desaparece em 2,5 segundos, permite tocar no mapa através dele e preserva o espaço dos controles."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
