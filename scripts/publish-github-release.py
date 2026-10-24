@@ -25,11 +25,10 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Aeroportos principais por estado, província ou região, mantendo também os principais de cada país e os destinos já usados pela companhia.",
-    "No Brasil, os 26 estados e o Distrito Federal têm um aeroporto selecionado, com códigos e coordenadas reais.",
-    "Busca e filtros por país e estado ou região, com paginação e contagens dos destinos disponíveis. Os representantes regionais podem receber rotas, entregas e traslados desde o início.",
-    "Globo e mapa mostram os destinos regionais conforme a área e o zoom, preservando as posições individuais dos aviões e as escalas das missões.",
-    "Mantém sua companhia, rotas, hubs, manutenção automática, progresso ao minimizar e o último clima confirmado durante falhas de conexão."
+    "Ao editar uma rota, a inclusão mostra apenas as aeronaves disponíveis para adicionar, com botões por avião e a opção Adicionar todas.",
+    "As aeronaves já vinculadas são preservadas automaticamente. O gerenciamento dos vínculos atuais fica recolhido, com opção de retirar ou restaurar aviões.",
+    "A prévia financeira e a capacidade acompanham a seleção antes de salvar. É possível desfazer inclusões ou cancelar sem alterar a rota.",
+    "As verificações de localização, alcance, condição e voos em andamento continuam valendo. Mantém aeroportos regionais, clima salvo e progresso em segundo plano."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
