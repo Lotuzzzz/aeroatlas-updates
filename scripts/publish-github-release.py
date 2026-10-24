@@ -25,11 +25,12 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Mapa mostra somente aeroportos ligados às rotas da companhia ou com demanda alta e crítica, em amarelo e vermelho.",
-    "Giro com dois dedos separado do gesto de pinça para zoom, com reconhecimento de intenção e sem mudanças acidentais de escala.",
-    "Listas de adição às rotas exibem apenas aeronaves disponíveis; aeronaves já vinculadas continuam no gerenciamento da própria rota.",
-    "Detalhes do aeroporto com área maior de leitura, controles de expansão e acesso mais claro à criação de rotas e à demanda.",
-    "Traslados respeitam a autonomia de cada modelo, com escalas técnicas obrigatórias quando necessárias e itinerário visível antes de confirmar."
+    "Decolagens escalonadas automaticamente em rotas, traslados e entregas: intervalo de 15 minutos do jogo no mesmo trecho e mínimo de 3 minutos no mesmo aeroporto.",
+    "Cada aeronave aparece individualmente na posição real do voo; filas mostram horários previstos e contagem até a partida, inclusive em compras em lote.",
+    "Rotas com falta de capacidade recebem aviso vermelho e acesso à compra com entrega diretamente vinculada à linha; excesso de aviões recebe aviso roxo.",
+    "Remanejamento entre rotas com prévia do traslado e custo aprovado; aeronaves em voo concluem o trecho atual antes da mudança automática.",
+    "Procura distribuída ao longo do dia, com horários de maior movimento e números mais claros para potencial diário, atendimentos e passageiros esperando agora.",
+    "Salvamentos, progresso fora do app, clima e contratos em voo preservados. O escalonamento vale para as próximas decolagens."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
