@@ -25,8 +25,14 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Notificações de pouso agora aparecem em uma mini tarja de uma linha no topo, com o voo e a receita recebida.",
-    "O aviso desaparece em 2,5 segundos, permite tocar no mapa através dele e preserva o espaço dos controles."
+    "Modo Relax opcional suaviza os efeitos do clima, reduz custos comerciais e de manutenção e diminui o desgaste nos novos voos.",
+    "Sete pinturas cosméticas, com padrão da companhia e escolha por aeronave; novos estilos são desbloqueados por objetivos livres.",
+    "Aeroportos com terminais, luzes e veículos estilizados que acompanham seu nível e a transformação em hub.",
+    "Modo contemplação esconde os painéis para acompanhar os aviões, com saída fácil e som ambiente opcional.",
+    "Cartões ilustrados de destinos e álbum automático registram novas chegadas, entregas, inaugurações e marcos da companhia.",
+    "Objetivos livres sem prazo, sequência obrigatória ou punição, com recompensas visuais e comemorações discretas.",
+    "Três ideias de próxima rota mostram procura, viagem curta ou novo destino, usando tarifas e custos reais da simulação antes de confirmar.",
+    "Eventos positivos simulados aumentam a procura; favoritos e assistente opcional facilitam encontrar e cuidar da sua rede."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
