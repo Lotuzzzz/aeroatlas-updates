@@ -25,10 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Adicione aeronaves livres de outros aeroportos diretamente a uma rota: revise os custos de traslado antes de confirmar.",
-    "O avião faz o traslado físico até a origem, com escalas quando necessárias, e só começa os voos comerciais após chegar.",
-    "Planejamento e edição de rotas mostram a posição de cada avião e o custo total dos traslados, separados do lucro previsto; cancelar a seleção não cobra nada.",
-    "Mapa central com melhor enquadramento e visibilidade da malha, seleção por toque e controles de navegação mais simples."
+    "Mapa mostra somente aeroportos ligados às rotas da companhia ou com demanda alta e crítica, em amarelo e vermelho.",
+    "Giro com dois dedos separado do gesto de pinça para zoom, com reconhecimento de intenção e sem mudanças acidentais de escala.",
+    "Listas de adição às rotas exibem apenas aeronaves disponíveis; aeronaves já vinculadas continuam no gerenciamento da própria rota.",
+    "Detalhes do aeroporto com área maior de leitura, controles de expansão e acesso mais claro à criação de rotas e à demanda.",
+    "Traslados respeitam a autonomia de cada modelo, com escalas técnicas obrigatórias quando necessárias e itinerário visível antes de confirmar."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
