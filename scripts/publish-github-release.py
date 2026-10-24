@@ -25,10 +25,10 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Catálogo ampliado para 17 famílias reais Airbus, Boeing e Embraer, com uma opção por família e filtros por fabricante.",
-    "Novas ilustrações caricaturadas específicas de cada modelo e miniaturas no mapa com silhuetas, dimensões e número de motores correspondentes.",
-    "Fichas com a variante de referência, especificações e fontes técnicas; modelos clássicos identificados como aquisições simuladas.",
-    "Novos modelos disponíveis para compra individual e em lote, usados e leasing, com entrega a partir da fábrica de referência. Frota e progresso atuais preservados."
+    "Adicione aeronaves livres de outros aeroportos diretamente a uma rota: revise os custos de traslado antes de confirmar.",
+    "O avião faz o traslado físico até a origem, com escalas quando necessárias, e só começa os voos comerciais após chegar.",
+    "Planejamento e edição de rotas mostram a posição de cada avião e o custo total dos traslados, separados do lucro previsto; cancelar a seleção não cobra nada.",
+    "Mapa central com melhor enquadramento e visibilidade da malha, seleção por toque e controles de navegação mais simples."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
