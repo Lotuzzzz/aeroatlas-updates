@@ -25,15 +25,14 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Demanda finita em cada aeroporto: amarelo para alta e vermelho para crítica, com números e legenda nos mapas e listas.",
-    "Passageiros conectam por hubs em dois trechos; concorrentes simuladas disputam a demanda e influenciam as tarifas.",
-    "Circuitos permitem programar várias ligações para a mesma aeronave, respeitando localização, alcance e tempo diário.",
-    "Central de operações para aguardar, remarcar, cancelar a próxima partida ou desviar e recuperar uma aeronave.",
-    "Carreira com objetivos e recompensas únicas, acompanhados pela nova Central da companhia.",
-    "Mercado com aeronaves novas, usadas e leasing, custos transparentes e escolha do aeroporto de entrega.",
-    "Globo com dia e noite, luzes, rastros e movimento dos voos; sons opcionais começam desligados.",
-    "Relatório ao retornar mostra voos, passageiros, receitas, despesas e problemas; mantém saves, clima offline e aeroportos regionais."
+    "Mapa mais limpo: clima, som, companhia, conquistas e legenda ficam reunidos no menu do mapa.",
+    "Toque em uma aeronave para aproximar, seguir e abrir seus detalhes; aeroportos também recebem foco e zoom suaves.",
+    "Detalhes do aeroporto no próprio mapa explicam a demanda simulada, as origens dos passageiros e os destinos procurados.",
+    "Crie uma rota até o aeroporto selecionado escolhendo a origem, com busca e indicação de ligações já existentes.",
+    "Compre de 1 a 20 aeronaves novas no mesmo pedido, com aeroporto de entrega, custo unitário e total antes da confirmação.",
+    "Compre aviões para uma ligação e acompanhe a entrega: o vínculo com a rota ocorre automaticamente após a chegada, sem duplicar ligações."
 ]
+
 def capture(pattern: str, text: str, label: str) -> str:
     match = re.search(pattern, text, re.MULTILINE)
     if not match:
