@@ -25,8 +25,10 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Corrigido o bloqueio de foco no seletor de aeroporto de entrega: busca, filtros e seleção por toque permanecem interativos durante as atualizações da interface.",
-    "Correção também preserva o foco dos campos nos demais modais, sem alterar sua companhia, preços ou progresso."
+    "Catálogo ampliado para 17 famílias reais Airbus, Boeing e Embraer, com uma opção por família e filtros por fabricante.",
+    "Novas ilustrações caricaturadas específicas de cada modelo e miniaturas no mapa com silhuetas, dimensões e número de motores correspondentes.",
+    "Fichas com a variante de referência, especificações e fontes técnicas; modelos clássicos identificados como aquisições simuladas.",
+    "Novos modelos disponíveis para compra individual e em lote, usados e leasing, com entrega a partir da fábrica de referência. Frota e progresso atuais preservados."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
