@@ -25,11 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Listas e mapas mostram os 239 aeroportos principais, um por país com aeroportos. Destinos já usados pela companhia continuam acessíveis em uma seção separada.",
-    "A operação conta o tempo com o app minimizado ou fechado. Ao voltar, voos, entregas, custos, parcelas e manutenções são processados com salvamentos durante a recuperação.",
-    "A pausa manual também interrompe o progresso fora do app; formulários pausam o planejamento apenas enquanto estão visíveis.",
-    "Sem internet, o último clima confirmado e seus efeitos continuam ativos, incluindo ciclones. O painel mostra a idade e os horários reais dos dados salvos.",
-    "Quando a conexão volta, as fontes são atualizadas sem apagar dados de consultas que falharam. Mantém partidas, transferências e a compatibilidade do atualizador Android."
+    "Aeroportos principais por estado, província ou região, mantendo também os principais de cada país e os destinos já usados pela companhia.",
+    "No Brasil, os 26 estados e o Distrito Federal têm um aeroporto selecionado, com códigos e coordenadas reais.",
+    "Busca e filtros por país e estado ou região, com paginação e contagens dos destinos disponíveis. Os representantes regionais podem receber rotas, entregas e traslados desde o início.",
+    "Globo e mapa mostram os destinos regionais conforme a área e o zoom, preservando as posições individuais dos aviões e as escalas das missões.",
+    "Mantém sua companhia, rotas, hubs, manutenção automática, progresso ao minimizar e o último clima confirmado durante falhas de conexão."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
