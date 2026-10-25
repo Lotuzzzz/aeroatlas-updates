@@ -25,12 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Decolagens escalonadas automaticamente em rotas, traslados e entregas: intervalo de 15 minutos do jogo no mesmo trecho e mínimo de 3 minutos no mesmo aeroporto.",
-    "Cada aeronave aparece individualmente na posição real do voo; filas mostram horários previstos e contagem até a partida, inclusive em compras em lote.",
-    "Rotas com falta de capacidade recebem aviso vermelho e acesso à compra com entrega diretamente vinculada à linha; excesso de aviões recebe aviso roxo.",
-    "Remanejamento entre rotas com prévia do traslado e custo aprovado; aeronaves em voo concluem o trecho atual antes da mudança automática.",
-    "Procura distribuída ao longo do dia, com horários de maior movimento e números mais claros para potencial diário, atendimentos e passageiros esperando agora.",
-    "Salvamentos, progresso fora do app, clima e contratos em voo preservados. O escalonamento vale para as próximas decolagens."
+    "Retomada da companhia otimizada: processamento em segundo plano e blocos adaptativos reduzem o trabalho repetido ao reabrir o jogo.",
+    "O mapa e os painéis deixam de ser redesenhados a cada pequeno passo da sincronização; o cartão mostra a porcentagem real concluída.",
+    "Fila de decolagem e verificações da frota mais eficientes, preservando horários, demanda, receitas, custos, entregas e manutenções.",
+    "Salvamentos agrupados com checkpoint exato: ao minimizar ou interromper a retomada, o tempo restante continua disponível sem duplicar ganhos.",
+    "Compatibilidade com aparelhos sem suporte ao processamento separado, usando a mesma simulação em blocos que cedem tempo à interface. Instale sem desinstalar para manter sua companhia."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
