@@ -25,11 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Retomada da companhia otimizada: processamento em segundo plano e blocos adaptativos reduzem o trabalho repetido ao reabrir o jogo.",
-    "O mapa e os painéis deixam de ser redesenhados a cada pequeno passo da sincronização; o cartão mostra a porcentagem real concluída.",
-    "Fila de decolagem e verificações da frota mais eficientes, preservando horários, demanda, receitas, custos, entregas e manutenções.",
-    "Salvamentos agrupados com checkpoint exato: ao minimizar ou interromper a retomada, o tempo restante continua disponível sem duplicar ganhos.",
-    "Compatibilidade com aparelhos sem suporte ao processamento separado, usando a mesma simulação em blocos que cedem tempo à interface. Instale sem desinstalar para manter sua companhia."
+    "Retomada de períodos longos mais rápida: filas, demanda, disponibilidade e registros financeiros usam menos cálculos repetidos, com as mesmas regras da companhia.",
+    "Compatibilidade reforçada com Android: o processamento separado também pode carregar diretamente dos arquivos do APK, com reaproveitamento local entre retomadas.",
+    "Menos cópias completas da companhia e salvamentos redundantes durante a sincronização; progresso e checkpoint continuam juntos.",
+    "A retomada alcança o tempo gasto no próprio processamento sem reiniciar o cartão ou carregar outro worker para esse intervalo.",
+    "Voos, receitas, custos, entregas, autonomia, clima e manutenções preservados. Instale sobre a versão atual, sem desinstalar."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
