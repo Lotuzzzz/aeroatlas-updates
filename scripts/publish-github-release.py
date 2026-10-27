@@ -25,13 +25,11 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Mapa com seleção de aeroportos antes dos aviões estacionados, escolha entre pontos próximos e busca direta por aeroporto. Símbolos e rótulos acompanham a escala do globo.",
-    "Ao escolher um aeroporto, veja a procura, os lugares que faltam e três ideias de rota partindo dele. A origem pode ser trocada sem perder o contexto.",
-    "Compras e criação de rotas com menos etapas: sugestões com compra abrem a revisão diretamente; quantidade, entrega e total ficam no início, com ativação da rota após a chegada física dos aviões.",
-    "Concorrentes simuladas aparecem no mapa de forma limitada e distinta, com controle de visibilidade no menu e sem misturar seus aviões com a sua frota.",
-    "Novos voos cobertos usam corredores geométricos baseados em pontos oficiais UN873, NAT e R220. Os trechos comuns são desenhados uma vez; distância, tempo e custo acompanham o percurso, respeitando alcance e programação.",
-    "Fora da cobertura ou quando o corredor não cabe na autonomia ou no dia de operação, mantém-se o trajeto direto. Os corredores são referências fixas de jogo, sem representar autorizações de voo ou aerovias atualizadas ao vivo.",
-    "Voos já em andamento, progresso, conexões, entregas e atualizações internas preservados. Instale sem desinstalar para manter sua companhia."
+    "Na demanda do aeroporto, novas sugestões destacam ligações sem voo direto com alta procura e falta de lugares. As três primeiras aparecem sem depender do saldo ou de um avião livre.",
+    "Rotas ativas, pausadas e pares com aeronaves já encomendadas para a ligação ficam fora das novas sugestões, considerando os dois sentidos.",
+    "Cada sugestão distingue o potencial estimado de uma nova ligação da procura atendida por conexão. O filtro de alta procura permite buscar e paginar mais opções, inclusive ao escolher a origem.",
+    "O botão de cada ligação abre a criação com origem e destino preenchidos. Compra, entrega e traslado continuam no fluxo normal, com revisão antes de pagar.",
+    "Frota, passageiros, voos em andamento, salvamentos e atualizações internas preservados. Instale sem desinstalar para manter sua companhia."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
