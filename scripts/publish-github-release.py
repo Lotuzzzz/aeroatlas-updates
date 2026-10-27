@@ -25,12 +25,12 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Frota e rotas com cartões mais compactos, busca, filtros, paginação e ações maiores; detalhes técnicos e ações secundárias ficam recolhidos.",
-    "Modais com título e fechamento fixos, uma área de rolagem e ações de confirmação visíveis, inclusive com o teclado aberto.",
-    "Na criação e edição de rotas, apenas a ligação selecionada aparece; aeronaves disponíveis e vinculadas ficam separadas, com busca e seleção em lote.",
-    "Conexões entre dois voos passam a funcionar também em aeroportos comuns. Novos destinos úteis atraem procura adicional limitada, sem multiplicar passageiros por duplicar rotas.",
-    "Ao tocar em um aeroporto, veja destinos procurados, passageiros por dia, ligação direta ou conexão disponível e oportunidades para planejar uma nova rota.",
-    "Progresso, voos em andamento, entregas, manutenções e atualizações internos preservados. Instale sem desinstalar para manter sua companhia."
+    "Frota ampliada de 200 para 1.000 aeronaves, com compras, leasing, lotes, rotas, entregas e salvamentos usando o mesmo limite.",
+    "Salvamentos grandes passam a ser compactados sem perder informações. Partidas e backups anteriores continuam compatíveis, com cópia local de recuperação.",
+    "Menu do mapa → Recursos do jogo reúne as 12 melhorias de lazer, com o estado de cada recurso e acesso direto pelo nome.",
+    "Modo Relax, pinturas, cartões de destinos, objetivos, álbum e favoritos agora têm atalhos claros; eventos e assistente abrem diretamente na seção escolhida.",
+    "Aeroportos animados, comemorações discretas e contemplação explicam como aparecem no jogo; preferências opcionais permanecem sob seu controle.",
+    "Progresso, voos em andamento, conexões, entregas e atualizações internas preservados. Instale sem desinstalar para manter sua companhia."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
