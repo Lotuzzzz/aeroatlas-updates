@@ -25,12 +25,13 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Frota ampliada de 200 para 1.000 aeronaves, com compras, leasing, lotes, rotas, entregas e salvamentos usando o mesmo limite.",
-    "Salvamentos grandes passam a ser compactados sem perder informações. Partidas e backups anteriores continuam compatíveis, com cópia local de recuperação.",
-    "Menu do mapa → Recursos do jogo reúne as 12 melhorias de lazer, com o estado de cada recurso e acesso direto pelo nome.",
-    "Modo Relax, pinturas, cartões de destinos, objetivos, álbum e favoritos agora têm atalhos claros; eventos e assistente abrem diretamente na seção escolhida.",
-    "Aeroportos animados, comemorações discretas e contemplação explicam como aparecem no jogo; preferências opcionais permanecem sob seu controle.",
-    "Progresso, voos em andamento, conexões, entregas e atualizações internas preservados. Instale sem desinstalar para manter sua companhia."
+    "Mapa com seleção de aeroportos antes dos aviões estacionados, escolha entre pontos próximos e busca direta por aeroporto. Símbolos e rótulos acompanham a escala do globo.",
+    "Ao escolher um aeroporto, veja a procura, os lugares que faltam e três ideias de rota partindo dele. A origem pode ser trocada sem perder o contexto.",
+    "Compras e criação de rotas com menos etapas: sugestões com compra abrem a revisão diretamente; quantidade, entrega e total ficam no início, com ativação da rota após a chegada física dos aviões.",
+    "Concorrentes simuladas aparecem no mapa de forma limitada e distinta, com controle de visibilidade no menu e sem misturar seus aviões com a sua frota.",
+    "Novos voos cobertos usam corredores geométricos baseados em pontos oficiais UN873, NAT e R220. Os trechos comuns são desenhados uma vez; distância, tempo e custo acompanham o percurso, respeitando alcance e programação.",
+    "Fora da cobertura ou quando o corredor não cabe na autonomia ou no dia de operação, mantém-se o trajeto direto. Os corredores são referências fixas de jogo, sem representar autorizações de voo ou aerovias atualizadas ao vivo.",
+    "Voos já em andamento, progresso, conexões, entregas e atualizações internas preservados. Instale sem desinstalar para manter sua companhia."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
