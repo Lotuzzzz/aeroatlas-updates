@@ -25,11 +25,12 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Retomada de períodos longos mais rápida: filas, demanda, disponibilidade e registros financeiros usam menos cálculos repetidos, com as mesmas regras da companhia.",
-    "Compatibilidade reforçada com Android: o processamento separado também pode carregar diretamente dos arquivos do APK, com reaproveitamento local entre retomadas.",
-    "Menos cópias completas da companhia e salvamentos redundantes durante a sincronização; progresso e checkpoint continuam juntos.",
-    "A retomada alcança o tempo gasto no próprio processamento sem reiniciar o cartão ou carregar outro worker para esse intervalo.",
-    "Voos, receitas, custos, entregas, autonomia, clima e manutenções preservados. Instale sobre a versão atual, sem desinstalar."
+    "Frota e rotas com cartões mais compactos, busca, filtros, paginação e ações maiores; detalhes técnicos e ações secundárias ficam recolhidos.",
+    "Modais com título e fechamento fixos, uma área de rolagem e ações de confirmação visíveis, inclusive com o teclado aberto.",
+    "Na criação e edição de rotas, apenas a ligação selecionada aparece; aeronaves disponíveis e vinculadas ficam separadas, com busca e seleção em lote.",
+    "Conexões entre dois voos passam a funcionar também em aeroportos comuns. Novos destinos úteis atraem procura adicional limitada, sem multiplicar passageiros por duplicar rotas.",
+    "Ao tocar em um aeroporto, veja destinos procurados, passageiros por dia, ligação direta ou conexão disponível e oportunidades para planejar uma nova rota.",
+    "Progresso, voos em andamento, entregas, manutenções e atualizações internos preservados. Instale sem desinstalar para manter sua companhia."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
