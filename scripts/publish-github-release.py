@@ -25,11 +25,14 @@ APPLICATION_ID = "com.aeroatlas.personal"
 MAX_APK_BYTES = 150 * 1024 * 1024
 MAX_MANIFEST_BYTES = 65536
 DEFAULT_NOTES = [
-    "Na demanda do aeroporto, novas sugestões destacam ligações sem voo direto com alta procura e falta de lugares. As três primeiras aparecem sem depender do saldo ou de um avião livre.",
-    "Rotas ativas, pausadas e pares com aeronaves já encomendadas para a ligação ficam fora das novas sugestões, considerando os dois sentidos.",
-    "Cada sugestão distingue o potencial estimado de uma nova ligação da procura atendida por conexão. O filtro de alta procura permite buscar e paginar mais opções, inclusive ao escolher a origem.",
-    "O botão de cada ligação abre a criação com origem e destino preenchidos. Compra, entrega e traslado continuam no fluxo normal, com revisão antes de pagar.",
-    "Frota, passageiros, voos em andamento, salvamentos e atualizações internas preservados. Instale sem desinstalar para manter sua companhia."
+    "Nova identidade visual em todo o jogo: azul-marinho, cores vivas com função clara, tipografia mais legível, superfícies mais leves e navegação redesenhada.",
+    "Mapa com informações essenciais reunidas, menu maior, controles confortáveis e cartão de voo simplificado. Configurações e atualizações ficam no menu do mapa.",
+    "Frota e rotas com hierarquia mais clara e ações maiores. Os cuidados automáticos da frota ficam em uma seção recolhível, e os filtros ocupam menos espaço.",
+    "Aeroportos com busca e filtros mais compactos, ações de mapa e planejamento antes dos detalhes técnicos e melhorias em uma seção própria.",
+    "Mercado de aeronaves mais direto, com modelos, preços e etapas de entrega mais fáceis de comparar. Compras em lote, custos e revisão continuam no fluxo existente.",
+    "Companhia, Relax, pinturas, coleções, carreira, clima e atualizador com visual consistente. Nova ilustração original de aeroporto no destaque da companhia.",
+    "Bordas dos campos com contraste conferido, foco visível, áreas de toque maiores e feedback discreto que respeita movimento reduzido. Sem bibliotecas de animação adicionais.",
+    "Frota, caixa, rotas, demanda, voos em andamento, entregas e salvamentos preservados. Instale sem desinstalar para manter sua companhia."
 ]
 
 def capture(pattern: str, text: str, label: str) -> str:
